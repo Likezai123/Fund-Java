@@ -21,7 +21,7 @@ public class Indexprincipal {
         do {
             Utilitarios.lineasenblanco(2);
             menu();
-            opcion = leer.entero();
+            opcion = leer.entero(); 
             switch (opcion) {
                 case 1 -> Indextrabajador.inicio();
                 case 2 -> Indexestudiante.inicio();
